@@ -1,0 +1,23 @@
+{
+    "name": "administrador/restapi_php",
+    "description": "Uma simples REST API usando PHP",
+    "type": "project",
+    "require": {
+        "coffeecode/datalayer": "1.1.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thiago Choren",
+            "email": "thipetherson@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+	"autoload": {
+		"psr-4": {
+			"Source\\": "source/"
+		
+		}
+	
+	}
+}
